@@ -1,0 +1,3346 @@
+{
+  "timestamp": "2026-11-11T07:38:57Z",
+  "summary": {
+    "total": 666,
+    "passed": 104,
+    "failed": 464,
+    "skipped": 98,
+    "duration_seconds": 17
+  },
+  "environment": {
+    "rust_awk_version": "0.1.0",
+    "gnu_testsuite_dir": "/home/runner/work/awk/awk/gnu.awk/test"
+  },
+  "tests": [
+    {
+      "name": "aadelete1",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "aadelete2",
+      "status": "FAIL",
+      "error": "Output differs from aadelete2.ok"
+    },
+    {
+      "name": "aarray1",
+      "status": "FAIL",
+      "error": "Output differs from aarray1.ok"
+    },
+    {
+      "name": "aasort",
+      "status": "FAIL",
+      "error": "Output differs from aasort.ok"
+    },
+    {
+      "name": "aasorti",
+      "status": "FAIL",
+      "error": "Output differs from aasorti.ok"
+    },
+    {
+      "name": "addcomma",
+      "status": "FAIL",
+      "error": "Output differs from addcomma.ok"
+    },
+    {
+      "name": "anchgsub",
+      "status": "FAIL",
+      "error": "Output differs from anchgsub.ok"
+    },
+    {
+      "name": "anchor",
+      "status": "FAIL",
+      "error": "Output differs from anchor.ok"
+    },
+    {
+      "name": "apiterm",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "ar2fn_elnew_sc",
+      "status": "FAIL",
+      "error": "Output differs from ar2fn_elnew_sc.ok"
+    },
+    {
+      "name": "ar2fn_elnew_sc2",
+      "status": "FAIL",
+      "error": "Output differs from ar2fn_elnew_sc2.ok"
+    },
+    {
+      "name": "ar2fn_fmod",
+      "status": "FAIL",
+      "error": "Output differs from ar2fn_fmod.ok"
+    },
+    {
+      "name": "ar2fn_unxptyp_aref",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "ar2fn_unxptyp_val",
+      "status": "FAIL",
+      "error": "Output differs from ar2fn_unxptyp_val.ok"
+    },
+    {
+      "name": "argarray",
+      "status": "FAIL",
+      "error": "Output differs from argarray.ok"
+    },
+    {
+      "name": "argcasfile",
+      "status": "FAIL",
+      "error": "Output differs from argcasfile.ok"
+    },
+    {
+      "name": "argtest",
+      "status": "FAIL",
+      "error": "Output differs from argtest.ok"
+    },
+    {
+      "name": "arrayind1",
+      "status": "FAIL",
+      "error": "Output differs from arrayind1.ok"
+    },
+    {
+      "name": "arrayind2",
+      "status": "FAIL",
+      "error": "Output differs from arrayind2.ok"
+    },
+    {
+      "name": "arrayind3",
+      "status": "FAIL",
+      "error": "Output differs from arrayind3.ok"
+    },
+    {
+      "name": "arrayparm",
+      "status": "FAIL",
+      "error": "Output differs from arrayparm.ok"
+    },
+    {
+      "name": "arrayprm2",
+      "status": "FAIL",
+      "error": "Output differs from arrayprm2.ok"
+    },
+    {
+      "name": "arrayprm3",
+      "status": "FAIL",
+      "error": "Output differs from arrayprm3.ok"
+    },
+    {
+      "name": "arrayref",
+      "status": "FAIL",
+      "error": "Output differs from arrayref.ok"
+    },
+    {
+      "name": "arraysort",
+      "status": "FAIL",
+      "error": "Output differs from arraysort.ok"
+    },
+    {
+      "name": "arraysort2",
+      "status": "FAIL",
+      "error": "Output differs from arraysort2.ok"
+    },
+    {
+      "name": "arraytype",
+      "status": "FAIL",
+      "error": "Output differs from arraytype.ok"
+    },
+    {
+      "name": "arraytype-mpfr",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "arrymem1",
+      "status": "FAIL",
+      "error": "Output differs from arrymem1.ok"
+    },
+    {
+      "name": "arryref2",
+      "status": "FAIL",
+      "error": "Output differs from arryref2.ok"
+    },
+    {
+      "name": "arryref3",
+      "status": "FAIL",
+      "error": "Output differs from arryref3.ok"
+    },
+    {
+      "name": "arryref4",
+      "status": "FAIL",
+      "error": "Output differs from arryref4.ok"
+    },
+    {
+      "name": "arryref5",
+      "status": "FAIL",
+      "error": "Output differs from arryref5.ok"
+    },
+    {
+      "name": "arynasty",
+      "status": "FAIL",
+      "error": "Output differs from arynasty.ok"
+    },
+    {
+      "name": "arynocls",
+      "status": "FAIL",
+      "error": "Output differs from arynocls.ok"
+    },
+    {
+      "name": "aryprm1",
+      "status": "FAIL",
+      "error": "Output differs from aryprm1.ok"
+    },
+    {
+      "name": "aryprm2",
+      "status": "FAIL",
+      "error": "Output differs from aryprm2.ok"
+    },
+    {
+      "name": "aryprm3",
+      "status": "FAIL",
+      "error": "Output differs from aryprm3.ok"
+    },
+    {
+      "name": "aryprm4",
+      "status": "FAIL",
+      "error": "Output differs from aryprm4.ok"
+    },
+    {
+      "name": "aryprm5",
+      "status": "FAIL",
+      "error": "Output differs from aryprm5.ok"
+    },
+    {
+      "name": "aryprm6",
+      "status": "FAIL",
+      "error": "Output differs from aryprm6.ok"
+    },
+    {
+      "name": "aryprm7",
+      "status": "FAIL",
+      "error": "Output differs from aryprm7.ok"
+    },
+    {
+      "name": "aryprm8",
+      "status": "FAIL",
+      "error": "Output differs from aryprm8.ok"
+    },
+    {
+      "name": "aryprm9",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "arysubnm",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "aryunasgn",
+      "status": "FAIL",
+      "error": "Output differs from aryunasgn.ok"
+    },
+    {
+      "name": "asgext",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "asort",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "asortbool",
+      "status": "FAIL",
+      "error": "Output differs from asortbool.ok"
+    },
+    {
+      "name": "asorti",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "asortsymtab",
+      "status": "FAIL",
+      "error": "Output differs from asortsymtab.ok"
+    },
+    {
+      "name": "asortsymtab-mpfr",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "assignnumfield",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "assignnumfield2",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "awkpath",
+      "status": "FAIL",
+      "error": "Output differs from awkpath.ok"
+    },
+    {
+      "name": "back89",
+      "status": "FAIL",
+      "error": "Output differs from back89.ok"
+    },
+    {
+      "name": "backbigs1",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "backgsub",
+      "status": "FAIL",
+      "error": "Output differs from backgsub.ok"
+    },
+    {
+      "name": "backsmalls1",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "backsmalls2",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "backw",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "badargs",
+      "status": "FAIL",
+      "error": "Output differs from badargs.ok"
+    },
+    {
+      "name": "badassign1",
+      "status": "FAIL",
+      "error": "Output differs from badassign1.ok"
+    },
+    {
+      "name": "badbuild",
+      "status": "FAIL",
+      "error": "Output differs from badbuild.ok"
+    },
+    {
+      "name": "beginfile1",
+      "status": "FAIL",
+      "error": "Output differs from beginfile1.ok"
+    },
+    {
+      "name": "beginfile2",
+      "status": "FAIL",
+      "error": "Output differs from beginfile2.ok"
+    },
+    {
+      "name": "binmode1",
+      "status": "FAIL",
+      "error": "Output differs from binmode1.ok"
+    },
+    {
+      "name": "callparam",
+      "status": "FAIL",
+      "error": "Output differs from callparam.ok"
+    },
+    {
+      "name": "charasbytes",
+      "status": "FAIL",
+      "error": "Output differs from charasbytes.ok"
+    },
+    {
+      "name": "childin",
+      "status": "FAIL",
+      "error": "Output differs from childin.ok"
+    },
+    {
+      "name": "clobber",
+      "status": "FAIL",
+      "error": "Output differs from clobber.ok"
+    },
+    {
+      "name": "clos1way",
+      "status": "FAIL",
+      "error": "Output differs from clos1way.ok"
+    },
+    {
+      "name": "clos1way2",
+      "status": "FAIL",
+      "error": "Output differs from clos1way2.ok"
+    },
+    {
+      "name": "clos1way3",
+      "status": "FAIL",
+      "error": "Output differs from clos1way3.ok"
+    },
+    {
+      "name": "clos1way4",
+      "status": "FAIL",
+      "error": "Output differs from clos1way4.ok"
+    },
+    {
+      "name": "clos1way5",
+      "status": "FAIL",
+      "error": "Output differs from clos1way5.ok"
+    },
+    {
+      "name": "clos1way6",
+      "status": "FAIL",
+      "error": "Output differs from clos1way6.ok"
+    },
+    {
+      "name": "close_status",
+      "status": "FAIL",
+      "error": "Output differs from close_status.ok"
+    },
+    {
+      "name": "closebad",
+      "status": "FAIL",
+      "error": "Output differs from closebad.ok"
+    },
+    {
+      "name": "clsflnam",
+      "status": "FAIL",
+      "error": "Output differs from clsflnam.ok"
+    },
+    {
+      "name": "cmdlinefsbacknl",
+      "status": "FAIL",
+      "error": "Output differs from cmdlinefsbacknl.ok"
+    },
+    {
+      "name": "cmdlinefsbacknl2",
+      "status": "FAIL",
+      "error": "Output differs from cmdlinefsbacknl2.ok"
+    },
+    {
+      "name": "colonwarn",
+      "status": "FAIL",
+      "error": "Output differs from colonwarn.ok"
+    },
+    {
+      "name": "commas",
+      "status": "FAIL",
+      "error": "Output differs from commas.ok"
+    },
+    {
+      "name": "compare",
+      "status": "FAIL",
+      "error": "Output differs from compare.ok"
+    },
+    {
+      "name": "compare2",
+      "status": "FAIL",
+      "error": "Output differs from compare2.ok"
+    },
+    {
+      "name": "concat1",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "concat2",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "concat3",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "concat4",
+      "status": "FAIL",
+      "error": "Output differs from concat4.ok"
+    },
+    {
+      "name": "concat5",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "convfmt",
+      "status": "FAIL",
+      "error": "Output differs from convfmt.ok"
+    },
+    {
+      "name": "crlf",
+      "status": "FAIL",
+      "error": "Output differs from crlf.ok"
+    },
+    {
+      "name": "csv1",
+      "status": "FAIL",
+      "error": "Output differs from csv1.ok"
+    },
+    {
+      "name": "csv2",
+      "status": "FAIL",
+      "error": "Output differs from csv2.ok"
+    },
+    {
+      "name": "csv3",
+      "status": "FAIL",
+      "error": "Output differs from csv3.ok"
+    },
+    {
+      "name": "csvodd",
+      "status": "FAIL",
+      "error": "Output differs from csvodd.ok"
+    },
+    {
+      "name": "datanonl",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "dbugarray1",
+      "status": "FAIL",
+      "error": "Output differs from dbugarray1.ok"
+    },
+    {
+      "name": "dbugarray2",
+      "status": "FAIL",
+      "error": "Output differs from dbugarray2.ok"
+    },
+    {
+      "name": "dbugarray3",
+      "status": "FAIL",
+      "error": "Output differs from dbugarray3.ok"
+    },
+    {
+      "name": "dbugarray4",
+      "status": "FAIL",
+      "error": "Output differs from dbugarray4.ok"
+    },
+    {
+      "name": "dbugeval",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "dbugeval2",
+      "status": "FAIL",
+      "error": "Output differs from dbugeval2.ok"
+    },
+    {
+      "name": "dbugeval3",
+      "status": "FAIL",
+      "error": "Output differs from dbugeval3.ok"
+    },
+    {
+      "name": "dbugeval4",
+      "status": "FAIL",
+      "error": "Output differs from dbugeval4.ok"
+    },
+    {
+      "name": "dbugtypedre1",
+      "status": "FAIL",
+      "error": "Output differs from dbugtypedre1.ok"
+    },
+    {
+      "name": "dbugtypedre2",
+      "status": "FAIL",
+      "error": "Output differs from dbugtypedre2.ok"
+    },
+    {
+      "name": "defref",
+      "status": "FAIL",
+      "error": "Output differs from defref.ok"
+    },
+    {
+      "name": "delargv",
+      "status": "FAIL",
+      "error": "Output differs from delargv.ok"
+    },
+    {
+      "name": "delarpm2",
+      "status": "FAIL",
+      "error": "Output differs from delarpm2.ok"
+    },
+    {
+      "name": "delarprm",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "delfunc",
+      "status": "FAIL",
+      "error": "Output differs from delfunc.ok"
+    },
+    {
+      "name": "delmessy",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "delsub",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "devfd",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "devfd1",
+      "status": "FAIL",
+      "error": "Output differs from devfd1.ok"
+    },
+    {
+      "name": "devfd2",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "dfacheck1",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "dfacheck2",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "dfamb1",
+      "status": "FAIL",
+      "error": "Output differs from dfamb1.ok"
+    },
+    {
+      "name": "dfastress",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "divzero",
+      "status": "FAIL",
+      "error": "Output differs from divzero.ok"
+    },
+    {
+      "name": "divzero2",
+      "status": "FAIL",
+      "error": "Output differs from divzero2.ok"
+    },
+    {
+      "name": "double1",
+      "status": "FAIL",
+      "error": "Output differs from double1.ok"
+    },
+    {
+      "name": "double2",
+      "status": "FAIL",
+      "error": "Output differs from double2.ok"
+    },
+    {
+      "name": "dumpvars",
+      "status": "FAIL",
+      "error": "Output differs from dumpvars.ok"
+    },
+    {
+      "name": "dynlj",
+      "status": "FAIL",
+      "error": "Output differs from dynlj.ok"
+    },
+    {
+      "name": "elemnew1",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "elemnew2",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "elemnew3",
+      "status": "FAIL",
+      "error": "Output differs from elemnew3.ok"
+    },
+    {
+      "name": "eofsplit",
+      "status": "FAIL",
+      "error": "Output differs from eofsplit.ok"
+    },
+    {
+      "name": "eofsrc1",
+      "status": "FAIL",
+      "error": "Output differs from eofsrc1.ok"
+    },
+    {
+      "name": "errno",
+      "status": "FAIL",
+      "error": "Output differs from errno.ok"
+    },
+    {
+      "name": "escapebrace",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "exit",
+      "status": "FAIL",
+      "error": "Output differs from exit.ok"
+    },
+    {
+      "name": "exit2",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "exitval1",
+      "status": "FAIL",
+      "error": "Output differs from exitval1.ok"
+    },
+    {
+      "name": "exitval2",
+      "status": "FAIL",
+      "error": "Output differs from exitval2.ok"
+    },
+    {
+      "name": "exitval3",
+      "status": "FAIL",
+      "error": "Output differs from exitval3.ok"
+    },
+    {
+      "name": "fcall_exit",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "fcall_exit2",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "fflush",
+      "status": "FAIL",
+      "error": "Output differs from fflush.ok"
+    },
+    {
+      "name": "fieldassign",
+      "status": "FAIL",
+      "error": "Output differs from fieldassign.ok"
+    },
+    {
+      "name": "fieldwdth",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "filefuncs",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "fldchg",
+      "status": "FAIL",
+      "error": "Output differs from fldchg.ok"
+    },
+    {
+      "name": "fldchgnf",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "fldterm",
+      "status": "FAIL",
+      "error": "Output differs from fldterm.ok"
+    },
+    {
+      "name": "fmtspcl-mpfr",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "fmttest",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "fnamedat",
+      "status": "FAIL",
+      "error": "Output differs from fnamedat.ok"
+    },
+    {
+      "name": "fnarray",
+      "status": "FAIL",
+      "error": "Output differs from fnarray.ok"
+    },
+    {
+      "name": "fnarray2",
+      "status": "FAIL",
+      "error": "Output differs from fnarray2.ok"
+    },
+    {
+      "name": "fnarydel",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "fnarydel-mpfr",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "fnaryscl",
+      "status": "FAIL",
+      "error": "Output differs from fnaryscl.ok"
+    },
+    {
+      "name": "fnasgnm",
+      "status": "FAIL",
+      "error": "Output differs from fnasgnm.ok"
+    },
+    {
+      "name": "fnmatch",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "fnmisc",
+      "status": "FAIL",
+      "error": "Output differs from fnmisc.ok"
+    },
+    {
+      "name": "fnparydl",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "fnparydl-mpfr",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "forcenum",
+      "status": "FAIL",
+      "error": "Output differs from forcenum.ok"
+    },
+    {
+      "name": "fordel",
+      "status": "FAIL",
+      "error": "Output differs from fordel.ok"
+    },
+    {
+      "name": "fork",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "fork2",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "forref",
+      "status": "FAIL",
+      "error": "Output differs from forref.ok"
+    },
+    {
+      "name": "forsimp",
+      "status": "FAIL",
+      "error": "Output differs from forsimp.ok"
+    },
+    {
+      "name": "fpat1",
+      "status": "FAIL",
+      "error": "Output differs from fpat1.ok"
+    },
+    {
+      "name": "fpat2",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "fpat3",
+      "status": "FAIL",
+      "error": "Output differs from fpat3.ok"
+    },
+    {
+      "name": "fpat4",
+      "status": "FAIL",
+      "error": "Output differs from fpat4.ok"
+    },
+    {
+      "name": "fpat5",
+      "status": "FAIL",
+      "error": "Output differs from fpat5.ok"
+    },
+    {
+      "name": "fpat6",
+      "status": "FAIL",
+      "error": "Output differs from fpat6.ok"
+    },
+    {
+      "name": "fpat7",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "fpat8",
+      "status": "FAIL",
+      "error": "Output differs from fpat8.ok"
+    },
+    {
+      "name": "fpat9",
+      "status": "FAIL",
+      "error": "Output differs from fpat9.ok"
+    },
+    {
+      "name": "fpatnull",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "fsbs",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "fscaret",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "fsfwfs",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "fsnul1",
+      "status": "FAIL",
+      "error": "Output differs from fsnul1.ok"
+    },
+    {
+      "name": "fsrs",
+      "status": "FAIL",
+      "error": "Output differs from fsrs.ok"
+    },
+    {
+      "name": "fsspcoln",
+      "status": "FAIL",
+      "error": "Output differs from fsspcoln.ok"
+    },
+    {
+      "name": "fstabplus",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "functab1",
+      "status": "FAIL",
+      "error": "Output differs from functab1.ok"
+    },
+    {
+      "name": "functab2",
+      "status": "FAIL",
+      "error": "Output differs from functab2.ok"
+    },
+    {
+      "name": "functab3",
+      "status": "FAIL",
+      "error": "Output differs from functab3.ok"
+    },
+    {
+      "name": "functab4",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "functab5",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "functab6",
+      "status": "FAIL",
+      "error": "Output differs from functab6.ok"
+    },
+    {
+      "name": "funlen",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "funsemnl",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "funsmnam",
+      "status": "FAIL",
+      "error": "Output differs from funsmnam.ok"
+    },
+    {
+      "name": "funstack",
+      "status": "FAIL",
+      "error": "Output differs from funstack.ok"
+    },
+    {
+      "name": "fwtest",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "fwtest2",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "fwtest3",
+      "status": "FAIL",
+      "error": "Output differs from fwtest3.ok"
+    },
+    {
+      "name": "fwtest4",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "fwtest5",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "fwtest6",
+      "status": "FAIL",
+      "error": "Output differs from fwtest6.ok"
+    },
+    {
+      "name": "fwtest7",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "fwtest8",
+      "status": "FAIL",
+      "error": "Output differs from fwtest8.ok"
+    },
+    {
+      "name": "genpot",
+      "status": "FAIL",
+      "error": "Output differs from genpot.ok"
+    },
+    {
+      "name": "gensub",
+      "status": "FAIL",
+      "error": "Output differs from gensub.ok"
+    },
+    {
+      "name": "gensub2",
+      "status": "FAIL",
+      "error": "Output differs from gensub2.ok"
+    },
+    {
+      "name": "gensub3",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "gensub4",
+      "status": "FAIL",
+      "error": "Output differs from gensub4.ok"
+    },
+    {
+      "name": "getfile",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "getline",
+      "status": "FAIL",
+      "error": "Output differs from getline.ok"
+    },
+    {
+      "name": "getline2",
+      "status": "FAIL",
+      "error": "Output differs from getline2.ok"
+    },
+    {
+      "name": "getline3",
+      "status": "FAIL",
+      "error": "Output differs from getline3.ok"
+    },
+    {
+      "name": "getline4",
+      "status": "FAIL",
+      "error": "Output differs from getline4.ok"
+    },
+    {
+      "name": "getline5",
+      "status": "FAIL",
+      "error": "Output differs from getline5.ok"
+    },
+    {
+      "name": "getlnbuf",
+      "status": "FAIL",
+      "error": "Output differs from getlnbuf.ok"
+    },
+    {
+      "name": "getlndir",
+      "status": "FAIL",
+      "error": "Output differs from getlndir.ok"
+    },
+    {
+      "name": "getlnfa",
+      "status": "FAIL",
+      "error": "Output differs from getlnfa.ok"
+    },
+    {
+      "name": "getlnhd",
+      "status": "FAIL",
+      "error": "Output differs from getlnhd.ok"
+    },
+    {
+      "name": "getnr2tb",
+      "status": "FAIL",
+      "error": "Output differs from getnr2tb.ok"
+    },
+    {
+      "name": "getnr2tm",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "gnuops2",
+      "status": "FAIL",
+      "error": "Output differs from gnuops2.ok"
+    },
+    {
+      "name": "gnuops3",
+      "status": "FAIL",
+      "error": "Output differs from gnuops3.ok"
+    },
+    {
+      "name": "gnureops",
+      "status": "FAIL",
+      "error": "Output differs from gnureops.ok"
+    },
+    {
+      "name": "gsubasgn",
+      "status": "FAIL",
+      "error": "Output differs from gsubasgn.ok"
+    },
+    {
+      "name": "gsubind",
+      "status": "FAIL",
+      "error": "Output differs from gsubind.ok"
+    },
+    {
+      "name": "gsubnulli18n",
+      "status": "FAIL",
+      "error": "Output differs from gsubnulli18n.ok"
+    },
+    {
+      "name": "gsubtest",
+      "status": "FAIL",
+      "error": "Output differs from gsubtest.ok"
+    },
+    {
+      "name": "gsubtst2",
+      "status": "FAIL",
+      "error": "Output differs from gsubtst2.ok"
+    },
+    {
+      "name": "gsubtst3",
+      "status": "FAIL",
+      "error": "Output differs from gsubtst3.ok"
+    },
+    {
+      "name": "gsubtst4",
+      "status": "FAIL",
+      "error": "Output differs from gsubtst4.ok"
+    },
+    {
+      "name": "gsubtst5",
+      "status": "FAIL",
+      "error": "Output differs from gsubtst5.ok"
+    },
+    {
+      "name": "gsubtst6",
+      "status": "FAIL",
+      "error": "Output differs from gsubtst6.ok"
+    },
+    {
+      "name": "gsubtst7",
+      "status": "FAIL",
+      "error": "Output differs from gsubtst7.ok"
+    },
+    {
+      "name": "gsubtst8",
+      "status": "FAIL",
+      "error": "Output differs from gsubtst8.ok"
+    },
+    {
+      "name": "hex",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "hex2",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "hsprint",
+      "status": "FAIL",
+      "error": "Output differs from hsprint.ok"
+    },
+    {
+      "name": "icasefs",
+      "status": "FAIL",
+      "error": "Output differs from icasefs.ok"
+    },
+    {
+      "name": "icasers",
+      "status": "FAIL",
+      "error": "Output differs from icasers.ok"
+    },
+    {
+      "name": "id",
+      "status": "FAIL",
+      "error": "Output differs from id.ok"
+    },
+    {
+      "name": "igncdym",
+      "status": "FAIL",
+      "error": "Output differs from igncdym.ok"
+    },
+    {
+      "name": "igncfs",
+      "status": "FAIL",
+      "error": "Output differs from igncfs.ok"
+    },
+    {
+      "name": "ignrcas2",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "ignrcas3",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "ignrcas4",
+      "status": "FAIL",
+      "error": "Output differs from ignrcas4.ok"
+    },
+    {
+      "name": "ignrcase",
+      "status": "FAIL",
+      "error": "Output differs from ignrcase.ok"
+    },
+    {
+      "name": "incdupe",
+      "status": "FAIL",
+      "error": "Output differs from incdupe.ok"
+    },
+    {
+      "name": "incdupe2",
+      "status": "FAIL",
+      "error": "Output differs from incdupe2.ok"
+    },
+    {
+      "name": "incdupe3",
+      "status": "FAIL",
+      "error": "Output differs from incdupe3.ok"
+    },
+    {
+      "name": "incdupe4",
+      "status": "FAIL",
+      "error": "Output differs from incdupe4.ok"
+    },
+    {
+      "name": "incdupe5",
+      "status": "FAIL",
+      "error": "Output differs from incdupe5.ok"
+    },
+    {
+      "name": "incdupe6",
+      "status": "FAIL",
+      "error": "Output differs from incdupe6.ok"
+    },
+    {
+      "name": "incdupe7",
+      "status": "FAIL",
+      "error": "Output differs from incdupe7.ok"
+    },
+    {
+      "name": "include",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "include2",
+      "status": "FAIL",
+      "error": "Output differs from include2.ok"
+    },
+    {
+      "name": "indirectbuiltin",
+      "status": "FAIL",
+      "error": "Output differs from indirectbuiltin.ok"
+    },
+    {
+      "name": "indirectbuiltin2",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "indirectbuiltin3",
+      "status": "FAIL",
+      "error": "Output differs from indirectbuiltin3.ok"
+    },
+    {
+      "name": "indirectbuiltin4",
+      "status": "FAIL",
+      "error": "Output differs from indirectbuiltin4.ok"
+    },
+    {
+      "name": "indirectbuiltin5",
+      "status": "FAIL",
+      "error": "Output differs from indirectbuiltin5.ok"
+    },
+    {
+      "name": "indirectbuiltin6",
+      "status": "FAIL",
+      "error": "Output differs from indirectbuiltin6.ok"
+    },
+    {
+      "name": "indirectcall",
+      "status": "FAIL",
+      "error": "Output differs from indirectcall.ok"
+    },
+    {
+      "name": "indirectcall2",
+      "status": "FAIL",
+      "error": "Output differs from indirectcall2.ok"
+    },
+    {
+      "name": "indirectcall3",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "inf-nan-torture",
+      "status": "FAIL",
+      "error": "Output differs from inf-nan-torture.ok"
+    },
+    {
+      "name": "inftest",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "inplace1",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "inplace1.1",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "inplace1.2",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "inplace2",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "inplace2.1",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "inplace2.1.bak",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "inplace2.2",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "inplace2.2.bak",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "inplace2bcomp",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "inplace2bcomp.1",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "inplace2bcomp.1.orig",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "inplace2bcomp.2",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "inplace2bcomp.2.orig",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "inplace3",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "inplace3.1",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "inplace3.1.bak",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "inplace3.2",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "inplace3.2.bak",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "inplace3bcomp",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "inplace3bcomp.1",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "inplace3bcomp.1.orig",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "inplace3bcomp.2",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "inplace3bcomp.2.orig",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "inpref",
+      "status": "FAIL",
+      "error": "Output differs from inpref.ok"
+    },
+    {
+      "name": "inputred",
+      "status": "FAIL",
+      "error": "Output differs from inputred.ok"
+    },
+    {
+      "name": "intarray",
+      "status": "FAIL",
+      "error": "Output differs from intarray.ok"
+    },
+    {
+      "name": "intest",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "intformat",
+      "status": "FAIL",
+      "error": "Output differs from intformat.ok"
+    },
+    {
+      "name": "intprec",
+      "status": "FAIL",
+      "error": "Output differs from intprec.ok"
+    },
+    {
+      "name": "iobug1",
+      "status": "FAIL",
+      "error": "Output differs from iobug1.ok"
+    },
+    {
+      "name": "iolint",
+      "status": "FAIL",
+      "error": "Output differs from iolint.ok"
+    },
+    {
+      "name": "isarrayunset",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "jarebug",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "lc_num1",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "leaddig",
+      "status": "FAIL",
+      "error": "Output differs from leaddig.ok"
+    },
+    {
+      "name": "leadnl",
+      "status": "FAIL",
+      "error": "Output differs from leadnl.ok"
+    },
+    {
+      "name": "lint",
+      "status": "FAIL",
+      "error": "Output differs from lint.ok"
+    },
+    {
+      "name": "lintexp",
+      "status": "FAIL",
+      "error": "Output differs from lintexp.ok"
+    },
+    {
+      "name": "lintindex",
+      "status": "FAIL",
+      "error": "Output differs from lintindex.ok"
+    },
+    {
+      "name": "lintint",
+      "status": "FAIL",
+      "error": "Output differs from lintint.ok"
+    },
+    {
+      "name": "lintlength",
+      "status": "FAIL",
+      "error": "Output differs from lintlength.ok"
+    },
+    {
+      "name": "lintold",
+      "status": "FAIL",
+      "error": "Output differs from lintold.ok"
+    },
+    {
+      "name": "lintplus",
+      "status": "FAIL",
+      "error": "Output differs from lintplus.ok"
+    },
+    {
+      "name": "lintplus2",
+      "status": "FAIL",
+      "error": "Output differs from lintplus2.ok"
+    },
+    {
+      "name": "lintplus3",
+      "status": "FAIL",
+      "error": "Output differs from lintplus3.ok"
+    },
+    {
+      "name": "lintset",
+      "status": "FAIL",
+      "error": "Output differs from lintset.ok"
+    },
+    {
+      "name": "lintwarn",
+      "status": "FAIL",
+      "error": "Output differs from lintwarn.ok"
+    },
+    {
+      "name": "litoct",
+      "status": "FAIL",
+      "error": "Output differs from litoct.ok"
+    },
+    {
+      "name": "localenl",
+      "status": "FAIL",
+      "error": "Output differs from localenl.ok"
+    },
+    {
+      "name": "longsub",
+      "status": "FAIL",
+      "error": "Output differs from longsub.ok"
+    },
+    {
+      "name": "longwrds",
+      "status": "FAIL",
+      "error": "Output differs from longwrds.ok"
+    },
+    {
+      "name": "manglprm",
+      "status": "FAIL",
+      "error": "Output differs from manglprm.ok"
+    },
+    {
+      "name": "manyfiles",
+      "status": "FAIL",
+      "error": "Output differs from manyfiles.ok"
+    },
+    {
+      "name": "match1",
+      "status": "FAIL",
+      "error": "Output differs from match1.ok"
+    },
+    {
+      "name": "match2",
+      "status": "FAIL",
+      "error": "Output differs from match2.ok"
+    },
+    {
+      "name": "match3",
+      "status": "FAIL",
+      "error": "Output differs from match3.ok"
+    },
+    {
+      "name": "match4",
+      "status": "FAIL",
+      "error": "Output differs from match4.ok"
+    },
+    {
+      "name": "matchuninitialized",
+      "status": "FAIL",
+      "error": "Output differs from matchuninitialized.ok"
+    },
+    {
+      "name": "math",
+      "status": "FAIL",
+      "error": "Output differs from math.ok"
+    },
+    {
+      "name": "mbfw1",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "mbprintf1",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "mbprintf2",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "mbprintf3",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "mbprintf4",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "mbprintf5",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "mbstr1",
+      "status": "FAIL",
+      "error": "Output differs from mbstr1.ok"
+    },
+    {
+      "name": "mbstr2",
+      "status": "FAIL",
+      "error": "Output differs from mbstr2.ok"
+    },
+    {
+      "name": "mdim1",
+      "status": "FAIL",
+      "error": "Output differs from mdim1.ok"
+    },
+    {
+      "name": "mdim2",
+      "status": "FAIL",
+      "error": "Output differs from mdim2.ok"
+    },
+    {
+      "name": "mdim3",
+      "status": "FAIL",
+      "error": "Output differs from mdim3.ok"
+    },
+    {
+      "name": "mdim4",
+      "status": "FAIL",
+      "error": "Output differs from mdim4.ok"
+    },
+    {
+      "name": "mdim5",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "mdim6",
+      "status": "FAIL",
+      "error": "Output differs from mdim6.ok"
+    },
+    {
+      "name": "mdim7",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "mdim8",
+      "status": "FAIL",
+      "error": "Output differs from mdim8.ok"
+    },
+    {
+      "name": "membug1",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "memleak",
+      "status": "FAIL",
+      "error": "Output differs from memleak.ok"
+    },
+    {
+      "name": "memleak2",
+      "status": "FAIL",
+      "error": "Output differs from memleak2.ok"
+    },
+    {
+      "name": "memleak3",
+      "status": "FAIL",
+      "error": "Output differs from memleak3.ok"
+    },
+    {
+      "name": "minusstr",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "mixed1",
+      "status": "FAIL",
+      "error": "Output differs from mixed1.ok"
+    },
+    {
+      "name": "mktime",
+      "status": "FAIL",
+      "error": "Output differs from mktime.ok"
+    },
+    {
+      "name": "mmap8k",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "modifiers",
+      "status": "FAIL",
+      "error": "Output differs from modifiers.ok"
+    },
+    {
+      "name": "mpfranswer42",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "mpfrbigint",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "mpfrbigint2",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "mpfrcase",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "mpfrcase2",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "mpfrexprange",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "mpfrfield",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "mpfrieee",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "mpfrmemok1",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "mpfrnegzero",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "mpfrnegzero2",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "mpfrnonum",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "mpfrnr",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "mpfrrem",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "mpfrrnd",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "mpfrrndeval",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "mpfrsort",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "mpfrsqrt",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "mpfrstrtonum",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "mpfruplus",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "mpgforcenum",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "mtchi18n",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "mtchi18n2",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "muldimposix",
+      "status": "FAIL",
+      "error": "Output differs from muldimposix.ok"
+    },
+    {
+      "name": "nasty",
+      "status": "FAIL",
+      "error": "Output differs from nasty.ok"
+    },
+    {
+      "name": "nasty2",
+      "status": "FAIL",
+      "error": "Output differs from nasty2.ok"
+    },
+    {
+      "name": "nastyparm",
+      "status": "FAIL",
+      "error": "Output differs from nastyparm.ok"
+    },
+    {
+      "name": "negexp",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "negrange",
+      "status": "FAIL",
+      "error": "Output differs from negrange.ok"
+    },
+    {
+      "name": "negtime",
+      "status": "FAIL",
+      "error": "Output differs from negtime.ok"
+    },
+    {
+      "name": "nested",
+      "status": "FAIL",
+      "error": "Output differs from nested.ok"
+    },
+    {
+      "name": "next",
+      "status": "FAIL",
+      "error": "Output differs from next.ok"
+    },
+    {
+      "name": "nfldstr",
+      "status": "FAIL",
+      "error": "Output differs from nfldstr.ok"
+    },
+    {
+      "name": "nfloop",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "nfneg",
+      "status": "FAIL",
+      "error": "Output differs from nfneg.ok"
+    },
+    {
+      "name": "nfset",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "nlfldsep",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "nlinstr",
+      "status": "FAIL",
+      "error": "Output differs from nlinstr.ok"
+    },
+    {
+      "name": "nlstrina",
+      "status": "FAIL",
+      "error": "Output differs from nlstrina.ok"
+    },
+    {
+      "name": "nlstringtest",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "nlstringtest-nogettext",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "noeffect",
+      "status": "FAIL",
+      "error": "Output differs from noeffect.ok"
+    },
+    {
+      "name": "nofile",
+      "status": "FAIL",
+      "error": "Output differs from nofile.ok"
+    },
+    {
+      "name": "nofmtch",
+      "status": "FAIL",
+      "error": "Output differs from nofmtch.ok"
+    },
+    {
+      "name": "noloop1",
+      "status": "FAIL",
+      "error": "Output differs from noloop1.ok"
+    },
+    {
+      "name": "noloop2",
+      "status": "FAIL",
+      "error": "Output differs from noloop2.ok"
+    },
+    {
+      "name": "nondec",
+      "status": "FAIL",
+      "error": "Output differs from nondec.ok"
+    },
+    {
+      "name": "nondec2",
+      "status": "FAIL",
+      "error": "Output differs from nondec2.ok"
+    },
+    {
+      "name": "nonfatal1",
+      "status": "FAIL",
+      "error": "Output differs from nonfatal1.ok"
+    },
+    {
+      "name": "nonfatal2",
+      "status": "FAIL",
+      "error": "Output differs from nonfatal2.ok"
+    },
+    {
+      "name": "nonfatal3",
+      "status": "FAIL",
+      "error": "Output differs from nonfatal3.ok"
+    },
+    {
+      "name": "nonl",
+      "status": "FAIL",
+      "error": "Output differs from nonl.ok"
+    },
+    {
+      "name": "noparms",
+      "status": "FAIL",
+      "error": "Output differs from noparms.ok"
+    },
+    {
+      "name": "nors",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "nsawk1a",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "nsawk1b",
+      "status": "FAIL",
+      "error": "Output differs from nsawk1b.ok"
+    },
+    {
+      "name": "nsawk1c",
+      "status": "FAIL",
+      "error": "Output differs from nsawk1c.ok"
+    },
+    {
+      "name": "nsawk2a",
+      "status": "FAIL",
+      "error": "Output differs from nsawk2a.ok"
+    },
+    {
+      "name": "nsawk2b",
+      "status": "FAIL",
+      "error": "Output differs from nsawk2b.ok"
+    },
+    {
+      "name": "nsbad",
+      "status": "FAIL",
+      "error": "Output differs from nsbad.ok"
+    },
+    {
+      "name": "nsbad2",
+      "status": "FAIL",
+      "error": "Output differs from nsbad2.ok"
+    },
+    {
+      "name": "nsbad3",
+      "status": "FAIL",
+      "error": "Output differs from nsbad3.ok"
+    },
+    {
+      "name": "nsbad_cmd",
+      "status": "FAIL",
+      "error": "Output differs from nsbad_cmd.ok"
+    },
+    {
+      "name": "nsforloop",
+      "status": "FAIL",
+      "error": "Output differs from nsforloop.ok"
+    },
+    {
+      "name": "nsfuncrecurse",
+      "status": "FAIL",
+      "error": "Output differs from nsfuncrecurse.ok"
+    },
+    {
+      "name": "nsidentifier",
+      "status": "FAIL",
+      "error": "Output differs from nsidentifier.ok"
+    },
+    {
+      "name": "nsindirect1",
+      "status": "FAIL",
+      "error": "Output differs from nsindirect1.ok"
+    },
+    {
+      "name": "nsindirect2",
+      "status": "FAIL",
+      "error": "Output differs from nsindirect2.ok"
+    },
+    {
+      "name": "nsprof1",
+      "status": "FAIL",
+      "error": "Output differs from nsprof1.ok"
+    },
+    {
+      "name": "nsprof2",
+      "status": "FAIL",
+      "error": "Output differs from nsprof2.ok"
+    },
+    {
+      "name": "nsprof3",
+      "status": "FAIL",
+      "error": "Output differs from nsprof3.ok"
+    },
+    {
+      "name": "nulinsrc",
+      "status": "FAIL",
+      "error": "Output differs from nulinsrc.ok"
+    },
+    {
+      "name": "nulrsend",
+      "status": "FAIL",
+      "error": "Output differs from nulrsend.ok"
+    },
+    {
+      "name": "numindex",
+      "status": "FAIL",
+      "error": "Output differs from numindex.ok"
+    },
+    {
+      "name": "numrange",
+      "status": "FAIL",
+      "error": "Output differs from numrange.ok"
+    },
+    {
+      "name": "numrange-mpfr",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "numstr1",
+      "status": "FAIL",
+      "error": "Output differs from numstr1.ok"
+    },
+    {
+      "name": "numsubstr",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "octdec",
+      "status": "FAIL",
+      "error": "Output differs from octdec.ok"
+    },
+    {
+      "name": "octsub",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "ofmt",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "ofmta",
+      "status": "FAIL",
+      "error": "Output differs from ofmta.ok"
+    },
+    {
+      "name": "ofmtbig",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "ofmtfidl",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "ofmts",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "ofmtstrnum",
+      "status": "FAIL",
+      "error": "Output differs from ofmtstrnum.ok"
+    },
+    {
+      "name": "ofs1",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "onlynl",
+      "status": "FAIL",
+      "error": "Output differs from onlynl.ok"
+    },
+    {
+      "name": "opasnidx",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "opasnslf",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "ordchr",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "ordchr2",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "out1",
+      "status": "FAIL",
+      "error": "Output differs from out1.ok"
+    },
+    {
+      "name": "out2",
+      "status": "FAIL",
+      "error": "Output differs from out2.ok"
+    },
+    {
+      "name": "out3",
+      "status": "FAIL",
+      "error": "Output differs from out3.ok"
+    },
+    {
+      "name": "paramasfunc1",
+      "status": "FAIL",
+      "error": "Output differs from paramasfunc1.ok"
+    },
+    {
+      "name": "paramasfunc2",
+      "status": "FAIL",
+      "error": "Output differs from paramasfunc2.ok"
+    },
+    {
+      "name": "paramdup",
+      "status": "FAIL",
+      "error": "Output differs from paramdup.ok"
+    },
+    {
+      "name": "paramres",
+      "status": "FAIL",
+      "error": "Output differs from paramres.ok"
+    },
+    {
+      "name": "paramtyp",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "paramuninitglobal",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "parse1",
+      "status": "FAIL",
+      "error": "Output differs from parse1.ok"
+    },
+    {
+      "name": "parsefld",
+      "status": "FAIL",
+      "error": "Output differs from parsefld.ok"
+    },
+    {
+      "name": "parseme",
+      "status": "FAIL",
+      "error": "Output differs from parseme.ok"
+    },
+    {
+      "name": "patsplit",
+      "status": "FAIL",
+      "error": "Output differs from patsplit.ok"
+    },
+    {
+      "name": "pcntplus",
+      "status": "FAIL",
+      "error": "Output differs from pcntplus.ok"
+    },
+    {
+      "name": "pid",
+      "status": "FAIL",
+      "error": "Output differs from pid.ok"
+    },
+    {
+      "name": "pipeio1",
+      "status": "FAIL",
+      "error": "Output differs from pipeio1.ok"
+    },
+    {
+      "name": "pipeio2",
+      "status": "FAIL",
+      "error": "Output differs from pipeio2.ok"
+    },
+    {
+      "name": "pma",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "posix",
+      "status": "FAIL",
+      "error": "Output differs from posix.ok"
+    },
+    {
+      "name": "posix2008sub",
+      "status": "FAIL",
+      "error": "Output differs from posix2008sub.ok"
+    },
+    {
+      "name": "posix_compare",
+      "status": "FAIL",
+      "error": "Output differs from posix_compare.ok"
+    },
+    {
+      "name": "prdupval",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "prec",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "printf-corners",
+      "status": "FAIL",
+      "error": "Output differs from printf-corners.ok"
+    },
+    {
+      "name": "printf-corners-mpfr",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "printf0",
+      "status": "FAIL",
+      "error": "Output differs from printf0.ok"
+    },
+    {
+      "name": "printf1",
+      "status": "FAIL",
+      "error": "Output differs from printf1.ok"
+    },
+    {
+      "name": "printfbad1",
+      "status": "FAIL",
+      "error": "Output differs from printfbad1.ok"
+    },
+    {
+      "name": "printfbad2",
+      "status": "FAIL",
+      "error": "Output differs from printfbad2.ok"
+    },
+    {
+      "name": "printfbad3",
+      "status": "FAIL",
+      "error": "Output differs from printfbad3.ok"
+    },
+    {
+      "name": "printfbad4",
+      "status": "FAIL",
+      "error": "Output differs from printfbad4.ok"
+    },
+    {
+      "name": "printfchar",
+      "status": "FAIL",
+      "error": "Output differs from printfchar.ok"
+    },
+    {
+      "name": "printhuge",
+      "status": "FAIL",
+      "error": "Output differs from printhuge.ok"
+    },
+    {
+      "name": "prmarscl",
+      "status": "FAIL",
+      "error": "Output differs from prmarscl.ok"
+    },
+    {
+      "name": "prmreuse",
+      "status": "FAIL",
+      "error": "Output differs from prmreuse.ok"
+    },
+    {
+      "name": "procinfs",
+      "status": "FAIL",
+      "error": "Output differs from procinfs.ok"
+    },
+    {
+      "name": "profile0",
+      "status": "FAIL",
+      "error": "Output differs from profile0.ok"
+    },
+    {
+      "name": "profile10",
+      "status": "FAIL",
+      "error": "Output differs from profile10.ok"
+    },
+    {
+      "name": "profile11",
+      "status": "FAIL",
+      "error": "Output differs from profile11.ok"
+    },
+    {
+      "name": "profile12",
+      "status": "FAIL",
+      "error": "Output differs from profile12.ok"
+    },
+    {
+      "name": "profile13",
+      "status": "FAIL",
+      "error": "Output differs from profile13.ok"
+    },
+    {
+      "name": "profile14",
+      "status": "FAIL",
+      "error": "Output differs from profile14.ok"
+    },
+    {
+      "name": "profile15",
+      "status": "FAIL",
+      "error": "Output differs from profile15.ok"
+    },
+    {
+      "name": "profile16",
+      "status": "FAIL",
+      "error": "Output differs from profile16.ok"
+    },
+    {
+      "name": "profile17",
+      "status": "FAIL",
+      "error": "Output differs from profile17.ok"
+    },
+    {
+      "name": "profile2",
+      "status": "FAIL",
+      "error": "Output differs from profile2.ok"
+    },
+    {
+      "name": "profile3",
+      "status": "FAIL",
+      "error": "Output differs from profile3.ok"
+    },
+    {
+      "name": "profile4",
+      "status": "FAIL",
+      "error": "Output differs from profile4.ok"
+    },
+    {
+      "name": "profile5",
+      "status": "FAIL",
+      "error": "Output differs from profile5.ok"
+    },
+    {
+      "name": "profile6",
+      "status": "FAIL",
+      "error": "Output differs from profile6.ok"
+    },
+    {
+      "name": "profile7",
+      "status": "FAIL",
+      "error": "Output differs from profile7.ok"
+    },
+    {
+      "name": "profile8",
+      "status": "FAIL",
+      "error": "Output differs from profile8.ok"
+    },
+    {
+      "name": "profile9",
+      "status": "FAIL",
+      "error": "Output differs from profile9.ok"
+    },
+    {
+      "name": "prt1eval",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "prtoeval",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "pty1",
+      "status": "FAIL",
+      "error": "Output differs from pty1.ok"
+    },
+    {
+      "name": "pty2",
+      "status": "FAIL",
+      "error": "Output differs from pty2.ok"
+    },
+    {
+      "name": "rand",
+      "status": "FAIL",
+      "error": "Output differs from rand.ok"
+    },
+    {
+      "name": "rand-mpfr",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "randtest",
+      "status": "FAIL",
+      "error": "Output differs from randtest.ok"
+    },
+    {
+      "name": "range1",
+      "status": "FAIL",
+      "error": "Output differs from range1.ok"
+    },
+    {
+      "name": "range2",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "re_test",
+      "status": "FAIL",
+      "error": "Output differs from re_test.ok"
+    },
+    {
+      "name": "readall",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "readbuf",
+      "status": "FAIL",
+      "error": "Output differs from readbuf.ok"
+    },
+    {
+      "name": "readfile2",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "rebrackloc",
+      "status": "FAIL",
+      "error": "Output differs from rebrackloc.ok"
+    },
+    {
+      "name": "rebt8b1",
+      "status": "FAIL",
+      "error": "Output differs from rebt8b1.ok"
+    },
+    {
+      "name": "rebt8b2",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "rebuf",
+      "status": "FAIL",
+      "error": "Output differs from rebuf.ok"
+    },
+    {
+      "name": "rebuild",
+      "status": "FAIL",
+      "error": "Output differs from rebuild.ok"
+    },
+    {
+      "name": "redfilnm",
+      "status": "FAIL",
+      "error": "Output differs from redfilnm.ok"
+    },
+    {
+      "name": "regeq",
+      "status": "FAIL",
+      "error": "Output differs from regeq.ok"
+    },
+    {
+      "name": "regex3minus",
+      "status": "FAIL",
+      "error": "Output differs from regex3minus.ok"
+    },
+    {
+      "name": "regexpbad",
+      "status": "FAIL",
+      "error": "Output differs from regexpbad.ok"
+    },
+    {
+      "name": "regexpbrack",
+      "status": "FAIL",
+      "error": "Output differs from regexpbrack.ok"
+    },
+    {
+      "name": "regexpbrack2",
+      "status": "FAIL",
+      "error": "Output differs from regexpbrack2.ok"
+    },
+    {
+      "name": "regexprange",
+      "status": "FAIL",
+      "error": "Output differs from regexprange.ok"
+    },
+    {
+      "name": "regexsub",
+      "status": "FAIL",
+      "error": "Output differs from regexsub.ok"
+    },
+    {
+      "name": "reginttrad",
+      "status": "FAIL",
+      "error": "Output differs from reginttrad.ok"
+    },
+    {
+      "name": "regnul1",
+      "status": "FAIL",
+      "error": "Output differs from regnul1.ok"
+    },
+    {
+      "name": "regnul2",
+      "status": "FAIL",
+      "error": "Output differs from regnul2.ok"
+    },
+    {
+      "name": "regrange",
+      "status": "FAIL",
+      "error": "Output differs from regrange.ok"
+    },
+    {
+      "name": "regx8bit",
+      "status": "FAIL",
+      "error": "Output differs from regx8bit.ok"
+    },
+    {
+      "name": "reindops",
+      "status": "FAIL",
+      "error": "Output differs from reindops.ok"
+    },
+    {
+      "name": "reint",
+      "status": "FAIL",
+      "error": "Output differs from reint.ok"
+    },
+    {
+      "name": "reint2",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "reparse",
+      "status": "FAIL",
+      "error": "Output differs from reparse.ok"
+    },
+    {
+      "name": "resplit",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "revout",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "revtwoway",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "rri1",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "rs",
+      "status": "FAIL",
+      "error": "Output differs from rs.ok"
+    },
+    {
+      "name": "rscompat",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "rsgetline",
+      "status": "FAIL",
+      "error": "Output differs from rsgetline.ok"
+    },
+    {
+      "name": "rsglstdin",
+      "status": "FAIL",
+      "error": "Output differs from rsglstdin.ok"
+    },
+    {
+      "name": "rsnul1nl",
+      "status": "FAIL",
+      "error": "Output differs from rsnul1nl.ok"
+    },
+    {
+      "name": "rsnulbig",
+      "status": "FAIL",
+      "error": "Output differs from rsnulbig.ok"
+    },
+    {
+      "name": "rsnulbig2",
+      "status": "FAIL",
+      "error": "Output differs from rsnulbig2.ok"
+    },
+    {
+      "name": "rsnullre",
+      "status": "FAIL",
+      "error": "Output differs from rsnullre.ok"
+    },
+    {
+      "name": "rsnulw",
+      "status": "FAIL",
+      "error": "Output differs from rsnulw.ok"
+    },
+    {
+      "name": "rsstart1",
+      "status": "FAIL",
+      "error": "Output differs from rsstart1.ok"
+    },
+    {
+      "name": "rsstart2",
+      "status": "FAIL",
+      "error": "Output differs from rsstart2.ok"
+    },
+    {
+      "name": "rsstart3",
+      "status": "FAIL",
+      "error": "Output differs from rsstart3.ok"
+    },
+    {
+      "name": "rstest1",
+      "status": "FAIL",
+      "error": "Output differs from rstest1.ok"
+    },
+    {
+      "name": "rstest2",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "rstest3",
+      "status": "FAIL",
+      "error": "Output differs from rstest3.ok"
+    },
+    {
+      "name": "rstest4",
+      "status": "FAIL",
+      "error": "Output differs from rstest4.ok"
+    },
+    {
+      "name": "rstest5",
+      "status": "FAIL",
+      "error": "Output differs from rstest5.ok"
+    },
+    {
+      "name": "rstest6",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "rswhite",
+      "status": "FAIL",
+      "error": "Output differs from rswhite.ok"
+    },
+    {
+      "name": "rtlen",
+      "status": "FAIL",
+      "error": "Output differs from rtlen.ok"
+    },
+    {
+      "name": "rtlen01",
+      "status": "FAIL",
+      "error": "Output differs from rtlen01.ok"
+    },
+    {
+      "name": "rtlenmb",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "rwarray",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "sandbox1",
+      "status": "FAIL",
+      "error": "Output differs from sandbox1.ok"
+    },
+    {
+      "name": "scalar",
+      "status": "FAIL",
+      "error": "Output differs from scalar.ok"
+    },
+    {
+      "name": "sclforin",
+      "status": "FAIL",
+      "error": "Output differs from sclforin.ok"
+    },
+    {
+      "name": "sclifin",
+      "status": "FAIL",
+      "error": "Output differs from sclifin.ok"
+    },
+    {
+      "name": "setrec0",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "setrec1",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "shadow",
+      "status": "FAIL",
+      "error": "Output differs from shadow.ok"
+    },
+    {
+      "name": "shadowbuiltin",
+      "status": "FAIL",
+      "error": "Output differs from shadowbuiltin.ok"
+    },
+    {
+      "name": "sigpipe1",
+      "status": "FAIL",
+      "error": "Output differs from sigpipe1.ok"
+    },
+    {
+      "name": "sort1",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "sortempty",
+      "status": "FAIL",
+      "error": "Output differs from sortempty.ok"
+    },
+    {
+      "name": "sortfor",
+      "status": "FAIL",
+      "error": "Output differs from sortfor.ok"
+    },
+    {
+      "name": "sortfor2",
+      "status": "FAIL",
+      "error": "Output differs from sortfor2.ok"
+    },
+    {
+      "name": "sortglos",
+      "status": "FAIL",
+      "error": "Output differs from sortglos.ok"
+    },
+    {
+      "name": "sortu",
+      "status": "FAIL",
+      "error": "Output differs from sortu.ok"
+    },
+    {
+      "name": "sourcesplit",
+      "status": "FAIL",
+      "error": "Output differs from sourcesplit.ok"
+    },
+    {
+      "name": "space",
+      "status": "FAIL",
+      "error": "Output differs from space.ok"
+    },
+    {
+      "name": "spacere",
+      "status": "FAIL",
+      "error": "Output differs from spacere.ok"
+    },
+    {
+      "name": "split_after_fpat",
+      "status": "FAIL",
+      "error": "Output differs from split_after_fpat.ok"
+    },
+    {
+      "name": "splitarg4",
+      "status": "FAIL",
+      "error": "Output differs from splitarg4.ok"
+    },
+    {
+      "name": "splitargv",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "splitarr",
+      "status": "FAIL",
+      "error": "Output differs from splitarr.ok"
+    },
+    {
+      "name": "splitdef",
+      "status": "FAIL",
+      "error": "Output differs from splitdef.ok"
+    },
+    {
+      "name": "splitvar",
+      "status": "FAIL",
+      "error": "Output differs from splitvar.ok"
+    },
+    {
+      "name": "splitwht",
+      "status": "FAIL",
+      "error": "Output differs from splitwht.ok"
+    },
+    {
+      "name": "splitwht2",
+      "status": "FAIL",
+      "error": "Output differs from splitwht2.ok"
+    },
+    {
+      "name": "sprintfc",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "status-close",
+      "status": "FAIL",
+      "error": "Output differs from status-close.ok"
+    },
+    {
+      "name": "strcat1",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "strfieldnum",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "strftfld",
+      "status": "FAIL",
+      "error": "Output differs from strftfld.ok"
+    },
+    {
+      "name": "strftlng",
+      "status": "FAIL",
+      "error": "Output differs from strftlng.ok"
+    },
+    {
+      "name": "strnum1",
+      "status": "FAIL",
+      "error": "Output differs from strnum1.ok"
+    },
+    {
+      "name": "strnum2",
+      "status": "FAIL",
+      "error": "Output differs from strnum2.ok"
+    },
+    {
+      "name": "strsubscript",
+      "status": "FAIL",
+      "error": "Output differs from strsubscript.ok"
+    },
+    {
+      "name": "strtod",
+      "status": "FAIL",
+      "error": "Output differs from strtod.ok"
+    },
+    {
+      "name": "strtonum",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "strtonum1",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "stupid1",
+      "status": "FAIL",
+      "error": "Output differs from stupid1.ok"
+    },
+    {
+      "name": "stupid2",
+      "status": "FAIL",
+      "error": "Output differs from stupid2.ok"
+    },
+    {
+      "name": "stupid3",
+      "status": "FAIL",
+      "error": "Output differs from stupid3.ok"
+    },
+    {
+      "name": "stupid4",
+      "status": "FAIL",
+      "error": "Output differs from stupid4.ok"
+    },
+    {
+      "name": "stupid5",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "subamp",
+      "status": "FAIL",
+      "error": "Output differs from subamp.ok"
+    },
+    {
+      "name": "subback",
+      "status": "FAIL",
+      "error": "Output differs from subback.ok"
+    },
+    {
+      "name": "subi18n",
+      "status": "FAIL",
+      "error": "Output differs from subi18n.ok"
+    },
+    {
+      "name": "subsepnm",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "subslash",
+      "status": "FAIL",
+      "error": "Output differs from subslash.ok"
+    },
+    {
+      "name": "substr",
+      "status": "FAIL",
+      "error": "Output differs from substr.ok"
+    },
+    {
+      "name": "swaplns",
+      "status": "FAIL",
+      "error": "Output differs from swaplns.ok"
+    },
+    {
+      "name": "switch2",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "symtab1",
+      "status": "FAIL",
+      "error": "Output differs from symtab1.ok"
+    },
+    {
+      "name": "symtab10",
+      "status": "FAIL",
+      "error": "Output differs from symtab10.ok"
+    },
+    {
+      "name": "symtab11",
+      "status": "FAIL",
+      "error": "Output differs from symtab11.ok"
+    },
+    {
+      "name": "symtab12",
+      "status": "FAIL",
+      "error": "Output differs from symtab12.ok"
+    },
+    {
+      "name": "symtab2",
+      "status": "FAIL",
+      "error": "Output differs from symtab2.ok"
+    },
+    {
+      "name": "symtab3",
+      "status": "FAIL",
+      "error": "Output differs from symtab3.ok"
+    },
+    {
+      "name": "symtab4",
+      "status": "FAIL",
+      "error": "Output differs from symtab4.ok"
+    },
+    {
+      "name": "symtab5",
+      "status": "FAIL",
+      "error": "Output differs from symtab5.ok"
+    },
+    {
+      "name": "symtab6",
+      "status": "FAIL",
+      "error": "Output differs from symtab6.ok"
+    },
+    {
+      "name": "symtab7",
+      "status": "FAIL",
+      "error": "Output differs from symtab7.ok"
+    },
+    {
+      "name": "symtab8",
+      "status": "FAIL",
+      "error": "Output differs from symtab8.ok"
+    },
+    {
+      "name": "symtab9",
+      "status": "FAIL",
+      "error": "Output differs from symtab9.ok"
+    },
+    {
+      "name": "synerr1",
+      "status": "FAIL",
+      "error": "Output differs from synerr1.ok"
+    },
+    {
+      "name": "synerr2",
+      "status": "FAIL",
+      "error": "Output differs from synerr2.ok"
+    },
+    {
+      "name": "synerr3",
+      "status": "FAIL",
+      "error": "Output differs from synerr3.ok"
+    },
+    {
+      "name": "tailrecurse",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "testext",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "testext-mpfr",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "time",
+      "status": "SKIP",
+      "error": "Not run (group-skipped: locale/MPFR/shared-lib)"
+    },
+    {
+      "name": "timeout",
+      "status": "FAIL",
+      "error": "Output differs from timeout.ok"
+    },
+    {
+      "name": "tradanch",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "trailbs",
+      "status": "FAIL",
+      "error": "Output differs from trailbs.ok"
+    },
+    {
+      "name": "tweakfld",
+      "status": "FAIL",
+      "error": "Output differs from tweakfld.ok"
+    },
+    {
+      "name": "typedregex1",
+      "status": "FAIL",
+      "error": "Output differs from typedregex1.ok"
+    },
+    {
+      "name": "typedregex2",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "typedregex3",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "typedregex4",
+      "status": "FAIL",
+      "error": "Output differs from typedregex4.ok"
+    },
+    {
+      "name": "typedregex5",
+      "status": "FAIL",
+      "error": "Output differs from typedregex5.ok"
+    },
+    {
+      "name": "typedregex6",
+      "status": "FAIL",
+      "error": "Output differs from typedregex6.ok"
+    },
+    {
+      "name": "typeof1",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "typeof2",
+      "status": "FAIL",
+      "error": "Output differs from typeof2.ok"
+    },
+    {
+      "name": "typeof3",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "typeof4",
+      "status": "FAIL",
+      "error": "Output differs from typeof4.ok"
+    },
+    {
+      "name": "typeof5",
+      "status": "FAIL",
+      "error": "Output differs from typeof5.ok"
+    },
+    {
+      "name": "typeof6",
+      "status": "FAIL",
+      "error": "Output differs from typeof6.ok"
+    },
+    {
+      "name": "typeof7",
+      "status": "FAIL",
+      "error": "Output differs from typeof7.ok"
+    },
+    {
+      "name": "typeof8",
+      "status": "FAIL",
+      "error": "Output differs from typeof8.ok"
+    },
+    {
+      "name": "typeof9",
+      "status": "FAIL",
+      "error": "Output differs from typeof9.ok"
+    },
+    {
+      "name": "unicode1",
+      "status": "FAIL",
+      "error": "Output differs from unicode1.ok"
+    },
+    {
+      "name": "uninit2",
+      "status": "FAIL",
+      "error": "Output differs from uninit2.ok"
+    },
+    {
+      "name": "uninit3",
+      "status": "FAIL",
+      "error": "Output differs from uninit3.ok"
+    },
+    {
+      "name": "uninit4",
+      "status": "FAIL",
+      "error": "Output differs from uninit4.ok"
+    },
+    {
+      "name": "uninit5",
+      "status": "FAIL",
+      "error": "Output differs from uninit5.ok"
+    },
+    {
+      "name": "uninitialized",
+      "status": "FAIL",
+      "error": "Output differs from uninitialized.ok"
+    },
+    {
+      "name": "unterm",
+      "status": "FAIL",
+      "error": "Output differs from unterm.ok"
+    },
+    {
+      "name": "uparrfs",
+      "status": "FAIL",
+      "error": "Output differs from uparrfs.ok"
+    },
+    {
+      "name": "uplus",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "watchpoint1",
+      "status": "FAIL",
+      "error": "Output differs from watchpoint1.ok"
+    },
+    {
+      "name": "wideidx",
+      "status": "FAIL",
+      "error": "Output differs from wideidx.ok"
+    },
+    {
+      "name": "wideidx2",
+      "status": "FAIL",
+      "error": "Output differs from wideidx2.ok"
+    },
+    {
+      "name": "widesub",
+      "status": "FAIL",
+      "error": "Output differs from widesub.ok"
+    },
+    {
+      "name": "widesub2",
+      "status": "FAIL",
+      "error": "Output differs from widesub2.ok"
+    },
+    {
+      "name": "widesub3",
+      "status": "FAIL",
+      "error": "Output differs from widesub3.ok"
+    },
+    {
+      "name": "widesub4",
+      "status": "FAIL",
+      "error": "Output differs from widesub4.ok"
+    },
+    {
+      "name": "wjposer1",
+      "status": "FAIL",
+      "error": "Output differs from wjposer1.ok"
+    },
+    {
+      "name": "zero2",
+      "status": "FAIL",
+      "error": "Output differs from zero2.ok"
+    },
+    {
+      "name": "zeroe0",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "zeroflag",
+      "status": "FAIL",
+      "error": "Output differs from zeroflag.ok"
+    }
+  ]
+}
