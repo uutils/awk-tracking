@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-11-11T07:38:57Z",
+  "timestamp": "2026-11-13T07:50:20Z",
   "summary": {
     "total": 666,
     "passed": 104,
     "failed": 464,
     "skipped": 98,
-    "duration_seconds": 17
+    "duration_seconds": 15
   },
   "environment": {
     "rust_awk_version": "0.1.0",
