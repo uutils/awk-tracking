@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-11-19T17:31:03Z",
+  "timestamp": "2026-11-20T06:52:19Z",
   "summary": {
     "total": 666,
-    "passed": 104,
-    "failed": 464,
+    "passed": 105,
+    "failed": 463,
     "skipped": 98,
-    "duration_seconds": 8
+    "duration_seconds": 17
   },
   "environment": {
     "rust_awk_version": "0.1.0",
@@ -709,8 +709,8 @@
     },
     {
       "name": "exitval3",
-      "status": "FAIL",
-      "error": "Output differs from exitval3.ok"
+      "status": "PASS",
+      "error": ""
     },
     {
       "name": "fcall_exit",
