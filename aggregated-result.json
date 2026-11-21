@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-11-20T15:30:34Z",
+  "timestamp": "2026-11-21T18:47:27Z",
   "summary": {
     "total": 666,
-    "passed": 105,
-    "failed": 463,
+    "passed": 106,
+    "failed": 462,
     "skipped": 98,
-    "duration_seconds": 16
+    "duration_seconds": 17
   },
   "environment": {
     "rust_awk_version": "0.1.0",
@@ -849,8 +849,8 @@
     },
     {
       "name": "forsimp",
-      "status": "FAIL",
-      "error": "Output differs from forsimp.ok"
+      "status": "PASS",
+      "error": ""
     },
     {
       "name": "fpat1",
