@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-11-26T19:24:25Z",
+  "timestamp": "2026-11-27T21:49:59Z",
   "summary": {
     "total": 666,
-    "passed": 119,
-    "failed": 449,
+    "passed": 121,
+    "failed": 447,
     "skipped": 98,
-    "duration_seconds": 4
+    "duration_seconds": 3
   },
   "environment": {
     "rust_awk_version": "0.1.0",
@@ -1909,8 +1909,8 @@
     },
     {
       "name": "negtime",
-      "status": "FAIL",
-      "error": "Output differs from negtime.ok"
+      "status": "PASS",
+      "error": ""
     },
     {
       "name": "nested",
@@ -2419,8 +2419,8 @@
     },
     {
       "name": "profile12",
-      "status": "FAIL",
-      "error": "Output differs from profile12.ok"
+      "status": "PASS",
+      "error": ""
     },
     {
       "name": "profile13",
